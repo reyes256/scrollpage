@@ -1,0 +1,72 @@
+body{
+    background-color: #333;
+    color: rgb(119, 79, 172);
+    font-family: monospace;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+#showcase{
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+#showcase h1{
+    font-size: 50px;
+}
+
+#showcase p{
+    font-size: 40px;
+}
+
+#showcase .boton{
+    text-decoration: none;
+    color: inherit;
+    border: rgb(119, 79, 172) 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#showcase .boton:hover{
+    text-decoration: none;
+    background-color: rgb(119, 79, 172);
+    color: white;
+    border: rgb(119, 79, 172) 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#showcase .boton:active{
+    text-decoration: none;
+    background-color: rgba(119, 79, 172, 0.589);
+    color: white;
+    border: rgb(119, 79, 172) 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 980px){
+    body{
+        font-size: 15px;
+    }
+}
